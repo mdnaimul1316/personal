@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.all_area {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( #80b3ff, #ff9999, #ff4dff);
+    /* clear: both; */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.heading {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+
+/* ================
+profile1_area 
+================= */
+
+.profile1_area {
+    width: 30%;
+    height: 70vh;
+    background: linear-gradient( #ff6666, #ffb366, #ff80d5);
+    margin: 0;
+    padding: 0;
+    margin: 0 40px;
+}
+
+.img1_area {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.photo1 {
+    width: 250px;
+    height: auto;
+    clip-path: circle(100px);
+}
+
+#name1_area {
+    color: black;
+    font-size: 23px;
+    font-style: italic;
+    text-align: center;
+}
+
+.social1_icon_area {
+    width: 100%;
+    height: auto;
+}
+
+.social1_icon_area ul {
+    text-align: center;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.social1_icon_area ul li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.social1_icon_area ul li a {}
+
+.social1_icon_area ul li a i {}
+
+
+/* =======================
+profile2_area
+======================== */
+
+.profile2_area {
+    width: 30%;
+    height: 70vh;
+    /* float: right; */
+    margin-left: 430px;
+    background: linear-gradient( #ff6666, #ffb366, #ff80d5);
+}
+
+.img2_area {
+    text-align: center;
+}
+
+.photo2 {
+    width: 150px;
+    height: auto;
+    clip-path: circle(100px);
+}
+
+#name2_area {}
+
+.social2_icon_area {}
